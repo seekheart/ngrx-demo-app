@@ -1,10 +1,8 @@
-import { CurrenciesUpdatedAction } from "../actions/currency";
+import { CurrenciesUpdatedAction } from '../actions/currency';
 import { CurrencyService } from '../services/currency.service';
 import { Injectable } from '@angular/core';
 import { Action } from '@ngrx/store';
 import { Actions, Effect } from '@ngrx/effects';
-import { HttpClient } from '@angular/common/http';
-import { of } from 'rxjs/observable/of';
 
 import * as currency from '../actions/currency';
 
